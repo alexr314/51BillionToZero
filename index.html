@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>51 Billion 2 Zero</title>
+    <title>51 Billion To Zero</title>
     <link rel="stylesheet" href="style.css" >
     
 </head>
@@ -14,29 +14,60 @@
         <a href = "index.html">Home</a>
         <a href = "about.html">About</a>
         <a href = "contact.html">Contact</a>
-        <div id = "title">51 Billion 2 Zero</div>
+        <div id = "title">51 Billion To Zero</div>
         </div> 
     </div>
     <script src="index.js"></script>
-    <div class="checkBoxes" style="display:inline; float:left; margin-top:100px; margin-left:50px;">
-   <div> <input type="checkbox" id="myCheck1" onclick="check1()"> Use of low carbon cement substitute </div>
-   <div> <input type="checkbox" id="myCheck2" onclick="check2()"> Reduce plastic production </div>
-   <div><input type="checkbox" id="myCheck3" onclick="check3()"> Increased ridesharing/public transport</div>
-   <div><input type="checkbox" id="myCheck4" onclick="check4()"> Switch to  electric vehicles</div>
-   <div><input type="checkbox" id="myCheck5" onclick="check5()"> Coal elimination</div>
-   <div> <input type="checkbox" id="myCheck6" onclick="check6()"> Oil elimination</div>
-   <div><input type="checkbox" id="myCheck7" onclick="check7()"> Reduce natural gas use</div>
-   <div> <input type="checkbox" id="myCheck8" onclick="check8()"> Use of sustainable logging</div>
-   <div><input type="checkbox" id="myCheck9" onclick="check9()"> Eliminate meat in dietary lifestyle</div>
+
+    <div class="checkBoxes" style="display:inline; float:left; margin-top:50px; margin-left:50px;">
+    <h2>We emit 51 billion tons of CO2 each year, here is the breakdown:</h2>
+    <p style="margin-left:30px">.</p>
+
+    <h2>See what effect possible actions have on the pie:</h2>
+   <div> <input type="checkbox" id="myCheck1" onclick="check1()"><label for="checkbox"> <b>Use of low carbon cement substitute</b> </label></div>
+   <p style="margin-left:30px">Cement is responsible for a suprising amount of CO2 emissions.</p>
+
+   <div> <input type="checkbox" id="myCheck2" onclick="check2()"> <b>Reduce plastic production</b> </div>
+   <p style="margin-left:30px">It would be very difficult to cut plastic production in half, but it would help!</p>
+   <div><input type="checkbox" id="myCheck3" onclick="check3()">  <b>Increased ridesharing/public transport</b></div>
+   <p style="margin-left:30px">Road transportation only makes up around 11% of total emissions.</p>
+   <p></p>
+   <div><input type="checkbox" id="myCheck4" onclick="check4()">  <b>Switch to  electric vehicles</b> </div>
+   <p style="margin-left:30px">EVs are only as green as the power that charges them. Unless we have a green grid, <br>this reduction in Road CO2 is accompanied by an increase in CO2 from power generation.</p>
+   <div><input type="checkbox" id="myCheck5" onclick="check5()">  <b>Eliminate Coal in power generaton</b></div>
+   <p style="margin-left:30px">Coal is on its way out in the developed world. But it is providing cheap and reliable power<br> 
+     in developing countries. We need to make it afforadable for them to kick Coal without <br>derailing
+    their development, and depriving them of afforable electricty</p>
+   <div> <input type="checkbox" id="myCheck6" onclick="check6()"> <b>Eliminate Oil in power generaton</b></div>
+   <p style="margin-left:30px"> It requires massive investment in renewables to replace oil.  </p>
+   <div><input type="checkbox" id="myCheck7" onclick="check7()">  <b>Reduce natural gas use</b></div>
+   <p style="margin-left:30px"> With many renewables the supply of energy is not reliable or inherently variable. <br> Solar doesn't produce at night, and the wind doesn't always blow! 
+    Unless we can <br> store all that green power for use when we can't produce it, we need a stopgap!
+    <br>That's the role of some fossel fuels until storage technology gets cheap.</p>
+   <div> <input type="checkbox" id="myCheck8" onclick="check8()"> <b>Use of sustainable logging</b></div>
+   <p style="margin-left:30px">While logging may seem antiquated, suprisingly building out of wood is better for the <br>  environment 
+    in many cases. Especially if it replaces high carbon CO2</p>
+   <div><input type="checkbox" id="myCheck9" onclick="check9()">  <b>Widespread addoption of meat substitute</b></div>
+   <p style="margin-left:30px"> Meat consumption requires livestock and growth of crops for feed, all this leaves <br> a large carbon footprint. However, global reduction of meat consumption is a hard sell. <br> Many people don't want to stop eating meat, and meat is important in our diets and many 
+    <br> of our cultures. There is some hope that lab grown meat could provide a green and humane <br>alternative.</p>
+   <div><input type="checkbox" id="myCheck10" onclick="check10()"> <b>Carbon Capture</b></div>
+   <p style="margin-left:30px"> Where some emmissions seem impossible to prevent, Carbon capture presents some <br> hope of canceling them anyway. We need invent ways to make this cheap!</p>
+   <div><input type="checkbox" id="myCheck9" onclick="check11()"> <b>Other Offset Methods</b></div>
+   <p style="margin-left:30px"> It's impossible to exhaust the list of ideas for combatting our emissions. <br> 
+    If you felt frustrated that this box doesn't do anything, go read up on carbon offsets and <br> invent some! We need awareness and innovation!</p>
+   
 </div>
     
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" charset="utf-8"></script>
     <script src="https://d3js.org/d3.v2.min.js"></script>
     <script src="piechart.js"> </script> 
-    <div id="chart" style="height:600px; width:600px; float:right;">
+    <div id="chart" style="height:600px; width:600px; float:right; margin-top:100px;">
         <div class="innerCont" style="position: static; display: flex; Width:100%; overflow: auto; margin-top:-100px; margin-left:-400px; top:0px; left:0px;" />
     </div>
     
+    <h2> Percentage of Global CO2 Emissions</h2>
+
+
 </body>
 </html>

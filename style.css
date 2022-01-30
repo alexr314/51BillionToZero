@@ -301,5 +301,6 @@ h1 {
   align-items: left;
 }
 
-checkbox {
+checkBoxes {
+  font-size: 30px;
 }

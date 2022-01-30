@@ -443,7 +443,44 @@ var salesData;
             console.log("after Value is " + chartData[27]["Total"]);
         }
     
-        function myFunction() {
+        function check1() {
             updateValue(document.getElementById("myCheck1"), 0, 7);  
+           Plot();
+          }
+        
+        function check2() {
+            updateValue(document.getElementById("myCheck2"), 2, 2);  
+           Plot();
+          }
+
+        function check3() {
+            updateValue(document.getElementById("myCheck3"), 22, 2);  
+           Plot();
+          }
+        
+          function check4() {
+            updateValue(document.getElementById("myCheck4"), 22, 3);  
+           Plot();
+          }
+
+          function check5() {
+            updateValue(document.getElementById("myCheck5"), 10, 10.8);  
+           Plot();
+          }
+
+          function check6() {
+            updateValue(document.getElementById("myCheck6"), 11, 8.9);  
+           Plot();
+          }
+          function check7() {
+            updateValue(document.getElementById("myCheck7"), 12, 2.3);  
+           Plot();
+          }
+          function check8() {
+            updateValue(document.getElementById("myCheck8"), 14, 1);  
+           Plot();
+          }
+          function check9() {
+            updateValue(document.getElementById("myCheck9"), 15, 2);  
            Plot();
           }

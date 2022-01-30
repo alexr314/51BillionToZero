@@ -304,3 +304,10 @@ h1 {
 checkBoxes {
   font-size: 30px;
 }
+
+.card-img-top {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid white;
+}
